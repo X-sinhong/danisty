@@ -1,0 +1,185 @@
+#boxd{
+	height:45%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.btnsa>span{
+		font-size: 20PX;
+}
+.btnsa{
+	width: 22%;
+}
+.leftpic{
+	height: 60%;
+}	
+.ggp>span{
+		font-size:15px;
+	}
+.btnsa2{
+	width: 22%;
+}
+.leftpic2{
+	bottom: 10%;
+	left:55%;
+}
+.ggbox{
+	top: 40%;
+}
+.btnsa3{
+	width: 22%;
+	right:10.3%;
+	
+}
+.btnsa3>span{
+		font-size: 20PX;
+}
+.leftpic3{
+	height: 60%;
+}
+#tittlebox{
+	height: 5%;
+	top:0.5%;
+}
+.Featurebox{
+	height: 70%;
+	top:7%;
+}
+.Featurebox>img{
+	width: 50%;
+	height: 100%;
+}
+.pho-pic{
+	margin-top:0 ;
+	
+}
+.pho-pic>img{
+	width: 30%;
+	height: 40%;
+}
+.cont-box{
+	height: 40%;
+}
+.detbox{
+	height: 20%;
+	/*margin-top: 0px;*/
+}
+#DailyTasks{
+	width: 15%;
+	height: 100%;
+}
+#DailyTasks1{
+	width: 15%;
+	height: 100%;
+}
+.BestBox{
+	display: none;
+}
+.BestBox1{
+	background-color:deepskyblue ;
+	opacity: 1;
+	
+}
+#leftcon{
+	height: 50%;
+	margin: 0px;
+	/*display: none;*/
+}
+#rightcon>div{
+	margin-top:2% ;
+	border: 1px white solid;
+	font-size: 25px;
+}
+#rightcon{
+	text-align: center;
+}
+#rightcon>p{
+	font-size: 15px;
+}
+.Modules{
+	height: 200%;
+	margin: 0;
+	padding: 0;
+}
+.modbox{
+	font-size: 20px;
+	font-weight:400;
+	margin-top:2% ;
+}
+.mdpic{
+	height: 30%;
+}
+.mdpics{
+	height: 80%;
+}
+.hepic{
+	height: 50%;
+}
+.btombox{
+	height: 25%;
+}
+.btombox{
+	margin-top:0px;
+}
+.beforbpx{
+	width: 90%;
+	height: 100%;
+	color: whitesmoke;
+	background-color:rgba(255,255,255,0.1);
+	position: absolute;
+	text-align: center;
+	line-height: 200%;
+	top: 0%;
+}
+.beforbpx>span{
+	font-size: 30px;
+}
+.beforbpx>p{
+	color: #31B0D5;
+}
+#DailyTasks2{
+	width:20%;
+	height:50%;
+	left: 42%;
+	border-radius: 50%;
+}
+#DailyTasks2>img{
+	width:100%;
+	height:100%;
+}
+.hepic>div>img{
+	width:80%;
+	height:100%;
+}
+.innerbox{
+	width: 80%;
+	height: 33%;
+}
+.Easybox{
+	height: 80%;
+}
+.gg{
+	margin-top:0% ;
+	height: 45%;
+}
+.gg>img{
+	width: 35%;
+	height: 100%;
+}
+.vbox{
+	margin-top:0% ;
+	font-size: 30px;
+}
+#bottombox{
+	height: 80%;
+	position: relative;
+	bottom: 0;
+}
+a{
+	text-decoration:none;
+}
+#bottombox1{
+	height: 28%;
+	font-size: 30px;
+}

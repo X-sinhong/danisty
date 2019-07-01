@@ -1,0 +1,458 @@
+img{
+	width: 100%;
+	height: 100%;
+}
+#boxd{
+	width: 100%;
+	height:65%;
+	margin-top: 70px ;
+	position: relative;
+	overflow: hidden;
+}
+#btnBox{
+	width: 300%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	float: left;
+	/*transition: left .2s;*/
+}
+.btns{
+	width: 33.33%;
+	height: 100%;
+	color: white;
+	float: left;
+}
+.btnsa{
+	width:15%;
+	height: 75%;
+	line-height:200%;
+	position: absolute;
+	bottom: 10px;
+	left:1%;
+	animation: hi 1s linear running;
+}
+.btnsa>span{
+	font-size: 30PX;
+}
+.big{
+	font-size: 30PX;
+}
+.btnsa2{
+	width: 15%;
+	height: 70%;
+	/*background-color: gold;*/
+	line-height:200%;
+	position: absolute;
+	bottom: 20px;
+	left:33%;
+	/*animation: hi 1s linear running;*/
+}
+.btnsa2>span{
+	font-size: 25PX;
+}
+.ggbox{
+	width:45%;
+	height: 45%;
+	position: absolute;
+	left:25%;
+	font-size:15px;
+	top: 55%;
+}
+.ggbox>a{
+	color: white;
+	text-decoration: none;
+}
+.ggbox>a:hover{
+	color:white;
+	
+}
+#ggbox1>a>div>span{
+	color: black;
+}
+#ggbox1>a:hover{
+	/*background-color: navajowhite;*/
+	color: black;
+}
+.ggp{
+	width: 100%;
+	height: 25%;
+}
+.ggps{
+	width: 100%;
+	height: 50%;
+}
+.ggp>img{
+	width: 25%;
+	height: 100%;
+}
+.ggps>img{
+	width: 60%;
+	height: 100%;
+}
+@keyframes hi{
+	0%{
+		opacity: 0.1;
+		transform: translate(-600px,0px)
+	}
+	25%{
+		opacity: 0.2;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	75%{
+		opacity: 0.7;
+	}
+	90%{
+		opacity: 0.9;
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0px,0px)
+	}
+}
+.leftpic{
+	width:7%;
+	height: 75%;
+	position: absolute;
+	bottom: 0px;
+	left: 20%;
+	animation: leftpic 1s linear backwards;
+}
+
+@keyframes leftpic{
+	0%{
+		opacity: 0.1;
+		transform: translate(600px,0px)
+	}
+	25%{
+		opacity: 0.2;
+	}
+	50%{
+		opacity: 0.5;
+		transform: translate(0px,0px)
+	}
+	75%{
+		opacity: 0.7;
+		transform: translate(-100px,0px)
+	}
+	80%{
+		opacity: 0.9;
+		transform: translate(0px,0px)
+	}
+	85%{
+		opacity: 0.9;
+		transform: translate(-20px,0px)
+	}
+	90%{
+		transform: translate(0px,0px)
+	}
+	95%{
+		transform: translate(-10px,0px)
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0px,0px)
+	}
+}
+#btn2{
+	color: black;
+}
+.btnsa3{
+	width:15%;
+	height: 75%;
+	line-height:200%;
+	position: absolute;
+	bottom: 10px;
+	right:17.35%;
+	animation: hi 1s linear running;
+}
+.btnsa3>span{
+	font-size: 30PX;
+}
+.leftpic2{
+	width:10%;
+	height: 80%;
+	position: absolute;
+	bottom: 0px;
+	left:50%;
+	animation: leftpic 1s linear backwards;
+}
+.leftpic3{
+	width:7%;
+	height: 75%;
+	position: absolute;
+	bottom: 0px;
+	right:6.33%;
+	/*animation: leftpic 1s linear backwards;*/
+}
+.ttt{
+	width: 100px;
+	height: 1000px;
+	background-color: lightblue;
+}
+.AmFeature{
+	width: 100%;
+	height: 150%;
+	background-color:peru ;
+	position: relative;
+}
+#tittlebox{
+	width: 100%;
+	height: 20%;
+	position: absolute;
+	top:5%;
+	text-align: center;
+}
+#tittlebox>hr{
+	width: 18%;
+	border:1px black solid;
+	margin-left: 40%;
+}
+.Featurebox{
+	width: 100%;
+	height: 70%;
+	position: absolute;
+	top:17%;
+	text-align: center;
+	/*background-color:greenyellow ;*/
+}
+.col-md-4{
+	height: 100%;
+	margin-left:2% ;
+	margin-right:2% ;
+	
+}
+.detbox{
+	margin: 55px 20px;
+}
+.pho-pic>img{
+	width: 100%;
+	height: 100%;
+}
+.detiale{
+	width: 80%;
+	height: 100%;
+	text-align: right;
+	line-height: 250%;
+	
+}
+.detiale>h4{
+	color: #31B0D5;
+}
+.detiale1>h4{
+	color: #31B0D5;
+}
+#DailyTasks{
+	width: 20%;
+	height:60%;
+	border: 1px #31B0D5 solid;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 10%;
+	overflow: hidden;
+}
+#DailyTasks>img{
+	width: 75%;
+	height: 85%;
+}
+.detiale1{
+	width: 80%;
+	height: 100%;
+	text-align: left;
+	line-height: 250%;
+	margin-left:20% ;
+}
+#DailyTasks1{
+	width: 20%;
+	height:60%;
+	border: 1px  solid #31B0D5;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 10%;
+	overflow: hidden;
+}
+#DailyTasks:hover,#DailyTasks1:hover{
+	border: 5px solid #31B0D5;
+}
+.BestBox{
+	width: 100%;
+	/*height: 100%;*/
+	z-index: -1;
+	position: fixed;
+	top:10%;
+}
+.BestBox1{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0);
+	color: whitesmoke;
+}
+#leftcon{
+	height: 90%;
+	margin-top: 5%;
+	text-align: center;
+	height: 100%;
+}
+
+#rightcon>span{
+
+	font-size: 40px;
+}
+#rightcon>p{
+	font-size: 20px;
+}
+#rightcon>div{
+	width: 100%;
+	height: 5%;
+	margin-top:5% ;
+	border: 1px white solid;
+	font-size: 15px;
+}
+.conlef{
+	width: 100%;
+	height: 12%;
+	margin-top:4% ;
+	border: 1px white solid;
+	font-size: 15px;
+	/*display: none;*/
+}
+.Modules{
+	width: 101.1%;
+	height: 115%;
+	background-color: whitesmoke;
+}
+.Modules>div>span{
+	font-size:40px ;
+}
+.mdpic{
+	height: 40%;
+}
+.mdpics{
+	height: 100%;
+}
+.Modules>div>hr{
+	width: 65%;
+	height: 2px;
+	background-color: blue;
+	margin-left:18% ;
+}
+.innerbox{
+	height: 100%;
+	text-align: end;
+	margin-left: 10%;
+}
+#DailyTasks2{
+	width:80%;
+	height:45%;
+	border: 1px #31B0D5 solid;
+	border-radius: 50%;
+	position: absolute;
+	left: 28%;
+	top: 0;
+	overflow: hidden;
+}
+#DailyTasks2>img{
+	width: 95%;
+	height: 95%;
+}
+.Manage{
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	font-size: 20px;
+}
+.hepic{
+	margin-left:5% ;
+	height: 30%;
+}
+.btombox{
+	margin:0px;
+}
+.beforbpx{
+	width: 90%;
+	height: 100%;
+	color: whitesmoke;
+	background-color:rgba(255,255,255,0.1);
+	position: absolute;
+	text-align: center;
+	line-height: 200%;
+	top: 0%;
+}
+.beforbpx>span{
+	font-size: 30px;
+}
+.beforbpx>p{
+	color: #31B0D5;
+}
+.beforbpx:hover{
+	background-color:rgba(255,255,255,0.2);
+}
+.Easybox{
+	width: 101.1%;
+	height: 100%;
+	margin:0px;
+	background-color: whitesmoke;
+}
+.gg{
+	width: 101%;
+	height:100%;
+	margin: 0;
+}
+.gg>img{
+	width: 60%;
+	height: 50%;
+	margin-top:10% ;
+}
+.vbox{
+	margin-top:10% ;
+	color:;
+	font-size:20px ;
+}
+a{
+	text-decoration:none;
+}
+
+#bottombox{
+	width: 100%;
+	height: 50%;
+}
+#bottombox1{
+	width: 100%;
+	height: 38%;
+	background-image: url(../img/firstpage/download.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: whitesmoke;
+	font-size: 40px;
+	text-align: center;
+	line-height: -150%;
+}
+.rrr{
+	height: 50px;
+	border-radius:5% ;
+	background-color: hotpink;
+	color:#46B8DA;
+	border: none;
+	font-size: 30px;
+}
+.rrr:hover{
+	background-color: chocolate;
+	color:lightgrey;
+}
+.bottom-box2{
+	width: 100%;
+	height: 62%;
+	background-image: url(../img/bottompic.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+@media only screen and (max-width:1400px ) {
+	
+}
